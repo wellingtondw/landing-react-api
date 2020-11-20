@@ -56,6 +56,16 @@
       "component": "page.modules",
       "required": true,
       "min": 2
+    },
+    "sectionSchedule": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-schedule"
+    },
+    "pricingBox": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.pricing-box"
     }
   }
 }
